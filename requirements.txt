@@ -1,18 +1,2 @@
 streamlit
 matplotlib
-numpy
-re
-ProfileReport
-Counter
-word_tokenize
-string 
-pandas
-TextBlob
-nltk
-stopwords
-ngrams
-textstat
-words as nltk_words 
-json
-curve_fit
-fuzz
