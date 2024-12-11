@@ -6,9 +6,6 @@ import numpy as np
 import re
 from ydata_profiling import ProfileReport
 import streamlit.components.v1 as components
-from page1 import run_page1
-from page2 import run_page2
-from page3 import run_page3
 from collections import Counter
 from nltk.tokenize import word_tokenize
 # from page4 import run_page4
@@ -33,7 +30,7 @@ import pandas as pd
 from sklearn.feature_selection import VarianceThreshold
 from sklearn.impute import SimpleImputer
 from io import BytesIO
-from matplotlib.backends.backend_pdf import PdfPages
+#from matplotlib.backends.backend_pdf import PdfPages
 import textstat
 from nltk.corpus import words as nltk_words  # Ensure to download the NLTK word corpus
 from collections import Counter
