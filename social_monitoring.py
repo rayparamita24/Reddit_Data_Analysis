@@ -1,7 +1,7 @@
 import streamlit as st
 import matplotlib.pyplot as plt
-import seaborn as sns
-from scipy import stats
+#import seaborn as sns
+#from scipy import stats
 import numpy as np
 import re
 from ydata_profiling import ProfileReport
@@ -9,7 +9,7 @@ import streamlit.components.v1 as components
 from collections import Counter
 from nltk.tokenize import word_tokenize
 # from page4 import run_page4
-from datetime import datetime,timedelta
+#from datetime import datetime,timedelta
 import string 
 import pandas as pd
 
@@ -22,18 +22,18 @@ nltk.download('words')
 # Download NLTK stopwords
 nltk.download('stopwords')
 stop_words = set(stopwords.words('english'))
-from langdetect import detect, DetectorFactory
-from langdetect.lang_detect_exception import LangDetectException
-from sklearn.cluster import DBSCAN
-from scipy import stats
-import pandas as pd
-from sklearn.feature_selection import VarianceThreshold
-from sklearn.impute import SimpleImputer
-from io import BytesIO
+#from langdetect import detect, DetectorFactory
+#from langdetect.lang_detect_exception import LangDetectException
+#from sklearn.cluster import DBSCAN
+#from scipy import stats
+#import pandas as pd
+#from sklearn.feature_selection import VarianceThreshold
+#from sklearn.impute import SimpleImputer
+#from io import BytesIO
 #from matplotlib.backends.backend_pdf import PdfPages
 import textstat
 from nltk.corpus import words as nltk_words  # Ensure to download the NLTK word corpus
-from collections import Counter
+#from collections import Counter
 import json
 from scipy.optimize import curve_fit
 from rapidfuzz import fuzz
