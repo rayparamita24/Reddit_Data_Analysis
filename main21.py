@@ -1,7 +1,6 @@
 import streamlit as st 
-import sys
-sys.path.append('path/to/social_monitoring')
-from social_monitoring import display as social_display
+
+from social_monitoring import display 
 #from survey_monitoring import display as survey_display
 
 # Set the title of the app
@@ -30,7 +29,7 @@ if st.session_state.page is None:
 # Render the selected page based on the button clicked
 if st.session_state.page == "social":
 #   st.subheader("Social Data Monitoring Page")
-   social_display()  # Call your function for social monitoring
+   display()  # Call your function for social monitoring
     # Add a 'Go Back' button to navigate back to the main dashboard
    if st.button("Go Back"):
       st.session_state.page = None
