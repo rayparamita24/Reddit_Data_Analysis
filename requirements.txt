@@ -12,7 +12,7 @@ nltk
 stopwords
 ngrams
 textstat
-words as nltk_words  # 
+words as nltk_words 
 json
 curve_fit
 fuzz
