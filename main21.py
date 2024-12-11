@@ -1,4 +1,6 @@
-import streamlit as st
+import streamlit as st 
+import sys
+sys.path.append('path/to/social_monitoring')
 from social_monitoring import display as social_display
 #from survey_monitoring import display as survey_display
 
@@ -23,7 +25,7 @@ if st.session_state.page is None:
         if st.button("Social Data Monitoring"):
             st.session_state.page = "social"
     with col2:
-            st.image("C:/py/dd.jpg", caption="", width=650)
+            st.image("dd.jpg", caption="", width=650)
 
 # Render the selected page based on the button clicked
 if st.session_state.page == "social":
