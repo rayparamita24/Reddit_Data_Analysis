@@ -3,7 +3,8 @@ matplotlib
 streamlit
 pandas
 ydata-profiling==4.6.4
-setuptools>=68
+setuptools==69.5.1
+wheel
 pandas
 numpy
 nltk
