@@ -1,4 +1,10 @@
 streamlit
 matplotlib
-ProfileReport
 ydata-profiling==4.6.4
+pandas
+numpy
+nltk
+textblob
+textstat
+rapidfuzz
+praw
